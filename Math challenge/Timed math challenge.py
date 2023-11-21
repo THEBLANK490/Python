@@ -1,3 +1,4 @@
+
 import random
 import time
 
@@ -30,7 +31,7 @@ for i in range(TOTAL_PROBLEMS):
         wrong += 1
 
 end_time = time.time()
-total_time = round(start_time - end_time,2)
+total_time = round(end_time - start_time,2)
 
 print("----------------------------")
 print("Nice Work!!!!! You finished in",total_time,'seconds!!')
